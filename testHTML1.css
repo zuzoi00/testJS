@@ -1,0 +1,102 @@
+@import url("https://fonts.google.com/specimen/https://fonts.google.com/specimen/Amethysta+Serif");
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Amethysta Serif" ;
+    font-size: 20px;
+    color: #222;
+}
+
+.pd {
+    padding: 0;
+}
+
+.mg {
+    margin: 0;
+}
+
+.cont1 {
+    background-color:#70c37d;
+    height: 150px;
+    line-height: 150px;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.navbar li a {
+    color: white !important;
+}
+
+.navbar-nav li:hover {
+    background-color: #e6e6e6 ;
+    transition-delay: 0.1s;
+}
+
+
+#slides {
+    margin: 30px auto;
+    width: 41%;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+}
+
+.carousel-caption h1 {
+    font-size: 120%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px #000;
+}
+
+.cont2 .left {
+    padding: 40px 20px;
+    background-color: #e6e6e6;
+}
+
+.cont2 .left-img1 {
+    width: 100%;
+    height: 296;
+}
+.cont2 .left-img2 {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cont2 .left-img3 {
+    width: 100%;
+}
+
+.cont2 .right {
+    padding: 40px 20px;
+}
+
+.cont2 .right .img1{
+    width: 100%;
+    height: 296px;
+    margin-bottom: 25px;
+}
+
+.cont2 .right .img2{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    background-color: #70c37d;
+    height: 100px;
+}
+
+.footer h3 {
+    line-height: 100px;
+}
