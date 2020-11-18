@@ -16,10 +16,13 @@ html, body {
     margin: 0;
 }
 
-.cont1 {
+.Header {
     background-color:#70c37d;
     height: 150px;
-    line-height: 150px;
+}
+
+.Header .Slogan {
+     padding-top: 50px;
 }
 
 .navbar {
@@ -41,62 +44,48 @@ html, body {
     width: 41%;
 }
 
-.carousel-inner img {
-    width: 100%;
-}
-
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-}
-
-.carousel-caption h1 {
-    font-size: 120%;
-    text-transform: uppercase;
-    text-shadow: 5px 5px 15px #000;
-}
-
-.cont2 .left {
+.Container .Siderbar {
     padding: 40px 20px;
     background-color: #e6e6e6;
 }
 
-.cont2 .left-img1 {
+.Container .Siderbar-img1 {
     width: 100%;
-    height: 296;
+    height: 296px;
+    margin-bottom: 25px;
 }
-.cont2 .left-img2 {
+.Container .Siderbar-img2 {
     height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.cont2 .left-img3 {
+.Container .Siderbar-img3 {
     width: 100%;
 }
 
-.cont2 .right {
+.Container .Body {
     padding: 40px 20px;
 }
 
-.cont2 .right .img1{
+.Container .Body .img1{
     width: 100%;
     height: 296px;
     margin-bottom: 25px;
 }
 
-.cont2 .right .img2{
+.Container .Body .img2{
     width: 100%;
     height: 500px;
     margin-bottom: 25px;
 }
 
-.footer {
+.Footer {
     background-color: #70c37d;
     height: 100px;
 }
 
-.footer h3 {
+.Footer h3 {
     line-height: 100px;
 }
